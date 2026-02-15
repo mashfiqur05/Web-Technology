@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Admission Form</title>
+</head>
+<body>
+    <center>
+    <h1>Online Admission Form</h1>
+    </center>
+
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+                <tr>
+                    <td><label for="fname">First Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="lname">Last Name:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td><input type="radio" name="gender" id="male"><label for="male">Male</label></td>
+                    <td><input type="radio" name="gender" id="female"><label for="female">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="Phone">Phone Number:</label></td>
+                    <td><input type="text"></td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Academic Information</legend>
+            <table>
+                <tr>
+                    <td><label for="previns">Previous Institution</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="dept">Preferred Department:</label></td>
+                    <td><select name="dept" id="dept">
+                        <option value="cse">CSE</option>
+                        <option value="eee">EEE</option>
+                        <option value="bba">BBA</option>
+                        <option value="archi">Architecture</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="interes">Interest</label></td>
+                    <td><input type="checkbox" name="" id="">Research</td>
+                    <td><input type="checkbox" name="" id="">Debate</td>
+                </tr>
+                <tr>
+                    <td><label for="transcrip">HSC Transcript</label></td>
+                    <td><input type="file" name="" id=""></td>
+                </tr>
+            </table>
+        </fieldset> 
+        <br><br>
+
+        
+        <center><input type="submit" value="Submit"></center>
+    </form>
+</body>
+</html>
