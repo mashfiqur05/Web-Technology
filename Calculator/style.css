@@ -1,0 +1,40 @@
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top: 15%;
+    /* border: 1px solid red; */
+    background: white;
+
+}
+
+.calculator{
+    background: wheat;
+    padding:20px;
+    border-radius:10px;
+}
+
+#display{
+    width:95%;
+    height:50px;
+    font-size:20px;
+    font-weight: bold;
+    margin-bottom:10px;
+    text-align:right;
+    padding:5px;
+    background-color: aquamarine;
+}
+
+.buttons{
+    display:grid;
+    grid-template-columns:repeat(4,60px);
+    gap:10px;
+}
+
+button{
+    height:50px;
+    font-size:18px;
+    font-weight: bold;
+    cursor:pointer;
+    background-color: aqua;
+}
